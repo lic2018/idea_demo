@@ -1,8 +1,9 @@
-package com.atguigu.gmall.service;
+package com.lic.gmall.service;
+
+import com.lic.gmall.bean.UserAddress;
 
 import java.util.List;
 
-import com.atguigu.gmall.bean.UserAddress;
 
 public interface OrderService {
 	
