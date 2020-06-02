@@ -10,15 +10,15 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class TestServiceImpl implements TestService {
-    @Autowired
-    private LinkDao sLinkDao;
-
-    @Override
-    public Link t01() {
-        Link sLink = sLinkDao.selectByPrimaryKey(1);
-        System.out.println(sLink.toString());
-        return sLink;
-    }
+//    @Autowired
+//    private LinkDao sLinkDao;
+//
+//    @Override
+//    public Link t01() {
+//        Link sLink = sLinkDao.selectByPrimaryKey(1);
+//        System.out.println(sLink.toString());
+//        return sLink;
+//    }
 
 
 }

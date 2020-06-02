@@ -5,5 +5,5 @@ package com.lic.generator.service;
  * @data: 2019/9/5
  */
 public interface TestService {
-    Link t01();
+//    Link t01();
 }
